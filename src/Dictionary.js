@@ -20,6 +20,7 @@ export default function Dictionary() {
 
   function handleResponse(response) {
     setResult(response.data[0]);
+    console.log(response);
   }
 
   return (
